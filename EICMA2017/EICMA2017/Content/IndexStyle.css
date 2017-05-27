@@ -1,0 +1,126 @@
+﻿/*Index Styles*/
+/*************/
+#mobilePresentation {
+    margin-bottom: 100px;
+}
+
+.jumbotron {
+    margin-top: 100px;
+    background-color:#424242 !important;
+}
+
+#video-container {
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0;
+}
+
+#video {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#presentationInfo {
+    margin-top: 20%;
+    margin-bottom: 50px;
+}
+
+/*Extra Information and Adv div*/
+/******************************/
+#extraInformationAdv {
+    position: relative;
+    margin-top: 50%;
+    height: 350px;
+}
+
+#extraInformation {
+    text-align: center;
+    top: 35%;
+    font-size: 22px;
+}
+
+#spanInfo {
+    background-color: #191919;
+    opacity: 0.75;
+    color:white;
+    width: 70%;
+}
+
+#back {
+    height: 100%;
+    background-image: url(../Multimedia/img/xsr900-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 3px 3px 2px #808080;
+}
+/*Presentation*/
+/*************/
+#presentationBoxLeft {
+    background-image: url("../Multimedia/img/cb650f-01-dark.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#presentationBoxCenter {
+    background-image: url("../Multimedia/img/nc750-01-dark.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#presentationBoxRight {
+    background-image: url("../Multimedia/img/fireblade1000-02-dark.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*Typography*/
+/***********/
+#videoTitle {
+    z-index: 15;
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+h2 {
+    color:antiquewhite;
+    font-size: 34px !important;
+}
+
+p {
+    color: antiquewhite;
+}
+
+.buttonInformation {
+    font-size: 48px;
+    background-color: #191919;
+    opacity: 0.6;
+    color: black;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+}
+
+/*XS Buttons*/
+/***********/
+.buttonInformationXs {
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    background-color: #191919;
+    color: white;
+    opacity: 0.6;
+}
+
+.text-information {
+    color: white;
+    opacity: 0.9;
+    text-align: right;
+}

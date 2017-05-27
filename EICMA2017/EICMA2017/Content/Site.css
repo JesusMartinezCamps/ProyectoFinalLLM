@@ -1,0 +1,116 @@
+﻿/*General content*/
+/****************/
+#generalBody {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 75px;
+    top: auto;
+    background-color: #333;
+}
+
+.container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin: 0px;
+}
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/*Navigator navbar*/
+/*****************/
+.navbar {
+    height: 75px;
+    padding-top: 10px;
+    background-color: #212121;
+    border-bottom: 2px solid;
+    border-color: ButtonShadow;
+}
+
+.navbar-brand {
+    color: #FFEBEE;
+}
+
+@media (min-width: 800px) {
+    .navbar-fixed-top, .navbar-fixed-bottom {
+        border-radius: 0;
+    }
+}
+
+.icon-bar {
+    background-color: red;
+}
+
+.navbar-collapse {
+    background-color: #424242;
+}
+
+    .collapse {
+        background-color: transparent;
+    }
+
+li > a {
+    color: #EF5350;
+    letter-spacing: 1px;
+}
+
+
+/*Adv*/
+/****/
+#advLarge {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    float: right;
+    background-color: red;
+}
+
+#advSmall {
+    position: relative;
+    display: block;
+    height: 90px;
+    width: 100%;
+    float: right;
+    background-color: red;
+}
+
+.advCross {
+    height: 15px;
+    width: 15px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-color: blueviolet;
+}
+
+/*Footer*/
+footer {
+    background-color: #37474F;
+    height:100px;
+    padding-top: 5px;
+}
+
+#siteFooterHeader {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+#siteFooterBottom {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#siteFooterLeft {
+    display: inline-block;
+    width: 45%;
+}
+
+#siteFooterRight {
+    display: inline-block;
+    width: 45%;
+}

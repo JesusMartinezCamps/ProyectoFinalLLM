@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title Salón EICMA de Milán 2017</title>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Styles.Render("~/Content/css")
+
+    @RenderSection("scripts", required: false)
+</head>
+<body>
+    <!--NavBar-->
+    <div class="navbar navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Salón EICMA de Milán 2017", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Últimas noticias", "News", "Home")</li>
+                    <li>@Html.ActionLink("Historia del Salón", "InformacionSalon", "Home")</li>
+                    <li>@Html.ActionLink("Más información", "About", "Home")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="generalBody">
+        <div class="container">
+            <!--Adv for small screen-->
+            <div class="visible-xs" id="advSmall">
+                <div class="advCross" id="advSmallCross"></div>
+            </div>
+            @RenderBody()
+            
+        </div>
+        <!--Footer container-->
+        <footer>
+            <div id="siteFooterHeader">
+                <p>&copy; @DateTime.Now.Year - Proyecto final de Lenguaje de Marcas en ASP.NET.</p>
+                <p>Primer curso del Grado Superior de Aplicaciones Web.</p>
+            </div>
+            <div id="siteFooterBottom">
+                <div id="siteFooterRight">
+                    <p> Jesús Martínez </p>
+                </div>
+                <div id="siteFooterRight">
+                    <p href="http://https://github.com/JesusMartinezCamps"> Github </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+﻿@{
+    ViewBag.Title = "Pagina de noticias";
+}
+
+<!--Wrapper for News tittle-->
+<div id="newsGeneralWrap">
+    <row>
+        <div class="col-xs-12" id="title">
+            <span class="titleSpan"> Las novedades más destacadas</span>
+            <span class="titleSpan" id="subtitle">Estas son las noticias más destacadas del salón de este año.</span>
+        </div>
+    </row>
+</div>
+
+<!--Adv and extra information container-->
+<div id="informationAdv" class="hidden-xs col-sm-12">
+    <row>
+        <div id="backAdv" class="col-sm-6">
+            <div id="extraInformationTitle" class="col-sm-12">
+                <p id="spanInfoAdv">Las últimas novedades del mundo de las dos ruedas</p>
+            </div>
+        </div>
+        <!--Adv for large screen-->
+        <div class="hidden-xs" id="advLarge">
+            <div class="advCross" id="advLargeCross"></div>
+        </div>
+    </row>
+</div>
+
+<!--Contenedor de noticias 1-->
+<row>
+    <div class="noticeContainer col-xs-12">
+
+        <article class="notice">
+            <img class="noticeImg img-responsive" src="../../Multimedia/img/xj6.jpg" alt="Imagen de noticia" width="300" height="250">
+            <header>
+                <a href="new1.cshtml">
+                    <h3>La XJ6 es la Joya de Corona de Yamaha, ¿quieres saber por qué?</h3>
+                </a>
+            </header>
+            <hr>
+            <section class="description">
+                <p class="newBodyShort">
+                    Un prodigioso motor de cuatro cilindros con regrigeración líquida que aporta 78 cv promete entregar suavidad, par y potencia en todo el rago de revoluciones, si lo combinas con un estilo impecable y una ergonomía formidable, sale como resultado esta Naked que hará las delicias de cualquier apasionado.
+                    <a href="new1.cshtml"><span>Descubrelo</span></a>
+                </p>
+            </section>
+            <footer class="date">
+                <span>Publicado: 25/05/2017 </span><span class="autor">Autor:<a href="#"> Jesús Martínez</a></span>
+            </footer>
+        </article>
+
+        <!--Contenedor de noticias 2-->
+
+        <article class="notice">
+            <img class="noticeImg img-responsive" src="../../Multimedia/img/1200r-01.png" alt="Imagen de noticia" width="300" height="250">
+            <header>
+                <a href="new1.cshtml">
+                    <h3>La nueva Ducati Monster ha llegado para quedarse</h3>
+                </a>
+            </header>
+            <hr>
+            <section class="description">
+                <p class="newBodyShort">
+                    La nueva Monster 1200 representa plenamente los valores que hacen latir el corazón de los motociclistas desde hace más de 20 años. Un icono de deportividad que se renueva completamente y sin embargo se mantiene fiel a los valores que la han convertido en una moto única: aún más bonita, aún más tecnológica, siempre inconfundiblemente Monster.
+                    <a href="new1.cshtml"><span>Descubrelo</span></a>
+                </p>
+            </section>
+            <footer class="date">
+                <span>Publicado: 25/05/2017 </span><span class="autor">Autor:<a href="#"> Jesús Martínez</a></span>
+            </footer>
+        </article>
+
+    </div>
+</row>
+

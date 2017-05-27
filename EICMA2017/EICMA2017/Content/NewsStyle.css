@@ -1,0 +1,122 @@
+﻿/*News Styles*/
+/************/
+.container-newContainer {
+    display:inline-block;
+    background-color: red;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+
+#newsGeneralWrap {
+    position: relative;
+    margin-top: 90px;
+    right: 0;
+    height: 500px;
+    width: 100%;
+    /*Background*/
+    background-image: url("../Multimedia/img/xsr900-02.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#title {
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 18%;
+    font-size: 35px;
+    width: 50%;
+}
+
+#subtitle{
+    font-size: 20px;
+}
+
+.titleSpan{
+    background-color: #171717;
+    color: white;
+    opacity: 0.55;
+    padding: 5px;
+    display: block;
+}
+
+/*Large Adv*/
+#informationAdv {
+    position: relative;
+    margin-top: 5%;
+    height: 350px;
+}
+
+#backAdv {
+    height: 100%;
+    background-image: url(../Multimedia/img/r6-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 3px 3px 2px #808080;
+    padding-right: 0 !important;
+}
+
+#spanInfoAdv {
+    background-color: #191919;
+    opacity: 0.75;
+    color: white;
+    width: 70%;
+    text-align: right;
+    float: right;
+    padding: 10px;
+    margin-top: 33%;
+    font-size: 22px;
+}
+
+/*Individual New Style*/
+/*********************/
+.notice {
+    margin-top:25px;
+    margin-bottom: 25px;
+    background-color: #808080;
+    border: 1px groove;
+    border-color: #171717;
+}
+
+header {
+    width: 50%;
+    display: inline-block;
+    float: right;
+    margin-top: 5%;
+    padding: 20px;
+    text-align: justify;
+}
+
+.img-responsive{
+    max-width:50% !important;
+    display:inline-block !important;
+}
+.newBodyShort{
+    color: #d8d8d8;
+    font-size: 15px;
+    padding: 5px;
+    text-align:justify;
+}
+.date {
+    border-color: #171717;
+    border-top: 1px groove;
+    background-color: #808080;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+footer > span, span > a{
+    color: #191919 !important;
+}
+.autor {
+    font-size: 13px;
+    color: #191919;
+}
+
+h3, span{
+    color:#ff0000;
+}
+

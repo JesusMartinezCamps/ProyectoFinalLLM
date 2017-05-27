@@ -1,0 +1,74 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!--Jumbotron container, only visible on xs version-->
+<row>
+    <div class="jumbotron visible-xs" id="mobilePresentation">
+        <h2>Últimas novedades del Salón EICMA de Milán 2017</h2>
+        <p class="lead">Descuble las últimas novedades que las grandes marcas de panorama han traido.</p>
+
+        <row>
+            <div class="container">
+                <!--Row container-->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 " id="presentationBoxLeft">
+                        <button type="button" id="noticiasXs" class="buttonInformationXs">Noticias</button>
+                        <p class="text-information">Últimas novedades del Salón</p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-3 col-sm-offset-1" id="presentationBoxCenter">
+                        <button type="button" id="historiaXs" class="buttonInformationXs">Historia</button>
+                        <p class="text-information">Historia pasada</p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-3 col-sm-offset-1" id="presentationBoxRight">
+                        <button type="button" id="informationXs" class="buttonInformationXs">Información</button>
+                        <p class="text-information">Información sobre la página</p>
+                    </div>
+                </div>
+            </div>
+        </row>
+    </div>
+</row>
+
+<!--Presentation video, only visible on sm or bigger screens-->
+<div class="hidden-xs" id="video-container">
+    <video id="video" preload="auto" autoplay="autoplay" muted="muted">
+        <source src="~/Multimedia/Video/meet&greed.mp4" type="video/mp4" />
+        Video not supported
+    </video>
+</div>
+
+<!--Adv and extra information container-->
+<div id="extraInformationAdv" class="hidden-xs col-sm-12">
+    <row>
+        <div id="back" class="col-sm-6">
+            <div id="extraInformation"class="col-sm-12" >
+                <p id="spanInfo">Las últimas novedades del mundo de las dos ruedas</p>
+            </div>
+        </div>
+        <!--Adv for large screen-->
+        <div class="hidden-xs" id="advLarge">
+            <div class="advCross" id="advLargeCross"></div>
+        </div>
+    </row>
+</div>
+
+<!--Presentation information-->
+<div class="hidden-xs" id="presentationInfo">
+    <!--Row container-->
+    <div class="row">
+        <div class="col-xs-12 col-sm-4" id="presentationBoxLeft">
+            <button type="button" id="noticias" class="buttonInformation"><h2>Noticias</h2></button>
+        </div>
+
+        <div class="col-xs-12 col-sm-4" id="presentationBoxCenter">
+            <button type="button" id="historia" class="buttonInformation"><h2>Historia</h2></button>
+        </div>
+
+        <div class="col-xs-12 col-sm-4" id="presentationBoxRight">
+            <button type="button" id="information" class="buttonInformation"><h2>Info</h2></button>
+        </div>
+    </div>
+</div>

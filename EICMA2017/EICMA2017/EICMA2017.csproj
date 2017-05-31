@@ -196,6 +196,8 @@
     <Content Include="Views\Home\InformacionSalon.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\News.cshtml" />
+    <Content Include="Views\Home\news1.cshtml" />
+    <Content Include="Views\Home\news2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

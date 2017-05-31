@@ -67,6 +67,14 @@ li > a {
     background-color: red;
 }
 
+#advLargeNews {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    float: right;
+    background-color: red;
+}
+
 #advSmall {
     position: relative;
     display: block;

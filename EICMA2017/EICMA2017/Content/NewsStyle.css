@@ -1,7 +1,7 @@
 ﻿/*News Styles*/
 /************/
 .container-newContainer {
-    display:inline-block;
+    display: inline-block;
     background-color: red;
     margin-top: 25px;
     margin-bottom: 50px;
@@ -30,11 +30,11 @@
     width: 50%;
 }
 
-#subtitle{
+#subtitle {
     font-size: 20px;
 }
 
-.titleSpan{
+.titleSpan {
     background-color: #171717;
     color: white;
     opacity: 0.55;
@@ -74,9 +74,9 @@
 /*Individual New Style*/
 /*********************/
 .notice {
-    margin-top:25px;
+    margin-top: 25px;
     margin-bottom: 25px;
-    background-color: #808080;
+    background-color: #757575;
     border: 1px groove;
     border-color: #171717;
 }
@@ -90,16 +90,18 @@ header {
     text-align: justify;
 }
 
-.img-responsive{
-    max-width:50% !important;
-    display:inline-block !important;
+.img-responsive {
+    max-width: 50% !important;
+    display: inline-block !important;
 }
-.newBodyShort{
+
+.newBodyShort {
     color: #d8d8d8;
     font-size: 15px;
     padding: 5px;
-    text-align:justify;
+    text-align: justify;
 }
+
 .date {
     border-color: #171717;
     border-top: 1px groove;
@@ -108,15 +110,79 @@ header {
     padding-top: 20px;
     padding-left: 20px;
 }
-footer > span, span > a{
-    color: #191919 !important;
+
+footer > span, span > a {
+    color: #acacac !important;
 }
+
 .autor {
     font-size: 13px;
-    color: #191919;
+    color: #acacac;
 }
 
-h3, span{
-    color:#ff0000;
+h3, span {
+    color: red;
 }
 
+/*Extended News*/
+/**************/
+
+.containerNews {
+    border-color: #171717;
+    border-top: 1px groove;
+    text-align: justify;
+    background-color: #808080;
+    padding: 15px;
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+
+/*.containerNewsBody1XL {
+    width: 45%;
+}*/
+
+.containerNewsBody1SM{
+    width: 100%;
+}
+
+.paragraf {
+    width: 45%;
+    display: inline-block;
+}
+
+.paragrafXS {
+    width: 100%;
+}
+
+h2 {
+    color: red;
+    margin-bottom: 50px;
+}
+
+.containerNewsImage {
+    width: 100%;
+    text-align: center !important;
+    margin-top: 65px;
+    margin-bottom: 75px;
+}
+
+.imgNews {
+    height: 533px;
+}
+
+.imgNewsHistoria {
+    height: 333px;
+}
+
+.imgNewsAbout{
+    height: 133px;
+}
+
+.containerNewsFinal {
+    border-top: 1px groove;
+    padding-top: 25px;
+}
+
+.img2{
+    margin-top:100px;
+}

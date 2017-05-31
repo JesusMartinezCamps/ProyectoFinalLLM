@@ -22,7 +22,7 @@ namespace EICMA2017.Controllers
 
         public ActionResult InformacionSalon()
         {
-            ViewBag.Message = "Historia del salón de Milán.";
+            ViewBag.Message = "Historia pasada.";
 
             return View();
         }
@@ -30,6 +30,20 @@ namespace EICMA2017.Controllers
         public ActionResult News()
         {
             ViewBag.Message = "Noticias.";
+
+            return View();
+        }
+
+        public ActionResult News1()
+        {
+            ViewBag.Message = "Primera noticia destacada.";
+
+            return View();
+        }
+
+        public ActionResult News2()
+        {
+            ViewBag.Message = "Segunda noticia destacada.";
 
             return View();
         }

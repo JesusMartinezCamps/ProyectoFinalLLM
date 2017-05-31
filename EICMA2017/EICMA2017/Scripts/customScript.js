@@ -12,6 +12,7 @@ $(document).ready(function () {
         $('#advLarge').removeClass('hidden-xs');
         $('#advLarge').removeClass('hidden-sm');
         $('#advLarge').css('display', 'none');
+        $('.paragraf').css('width', '100%');
         $('#back').toggleClass('col-sm-6', 'col-sm-12');
         $('#backAdv').toggleClass('col-sm-6', 'col-sm-12');
         $('#spanInfoAdv').css('margin-top', "25%");
@@ -29,11 +30,22 @@ $(document).ready(function () {
         window.location.href = '/Home/About/';
     });
 
+    $('#noticiasXs').click(function () {
+        window.location.href = '/Home/News/';
+    });
+    $('#historiaXs').click(function () {
+        window.location.href = '/Home/InformacionSalon/';
+    });
+    $('#informationXs').click(function () {
+        window.location.href = '/Home/About/';
+    });
+
+
     var firstScroll = false;
     var secondScroll = false;
 
     $(window).scroll(function () {
-        if ($(window).scrollTop() + $(window).height() == $(document).height()) {
+        if ($(document).scrollTop() + $(window).height() == $(document).height()) {
             if (firstScroll == false) {
                 loadJson();
                 firstScroll = true;
@@ -55,7 +67,7 @@ function loadJson() {
                 + json[index].title + "</h3></a></header><hr><section class='description'><p class='newBodyShort'>"
                 + json[index].body + "<a href='#'><span> Descubrelo</span></a></p></section><footer class='date'><span>Publicado: "
                 + json[index].data + "</span><span class='autor'> Autor: <a href='#'>"
-                + json[index].autor + "</a></span></footer></article><hr>");
+                + json[index].author + "</a></span></footer></article><hr>");
         });
     });
 }
@@ -68,7 +80,7 @@ function loadJson2() {
                 + json[index].title + "</h3></a></header><hr><section class='description'><p class='newBodyShort'>"
                 + json[index].body + "<a href='#'><span> Descubrelo</span></a></p></section><footer class='date'><span>Publicado: "
                 + json[index].data + "</span><span class='autor'> Autor: <a href='#'>"
-                + json[index].autor + "</a></span></footer></article><hr>");
+                + json[index].author + "</a></span></footer></article><hr>");
         });
     });
 }

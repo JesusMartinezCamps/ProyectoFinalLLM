@@ -1,7 +1,38 @@
 ﻿@{
     ViewBag.Title = "About";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<p>Futura información acerca del proyecto.</p>
+<div class="containerNews col-xs-12 col-sm-11 ">
+    <h2>@ViewBag.Title.</h2>
+
+    <div class="containerNewsImage">
+        <img class="imgNewsAbout" src="~/Multimedia/img/ies.jpg">
+    </div>
+
+    <div class="containerNewsBody1XL hidden-xs">
+        <p class="paragraf">
+            Proyecto final de la asignatura Lenguaje de Marcas, del primer curso del Ciclo Dual de Aplicaciones Web
+        </p>
+
+    </div>
+
+    <div class="containerNewsBody1SM">
+        <p class="paragrafXS">
+            Programado en Visual Studio, se ha intentado crear la página con una arquitectura MVC, siendo esta práctica una primera toma de contacto con este modelo
+            a la espera de poder verlo más a fondo el siguiente año.
+            Gracias a los posibilidades que ofrece Visual Studio, las diferentes páginas heredan de un _Layout general, y específicamente tienen sus css de estílos para amoldarse individualmente a sus necesidades.
+
+        </p>
+    </div>
+    <div class="containerNewsBody2">
+        <p>
+            Las tecnologías utilizazas han sido Bootstrap como Framework para el <i><a href="http://getbootstrap.com/">Look and Feel</a></i> general, y <i><a href="https://jquery.com/">JQuery</a></i> para el comportamiento.
+
+            Para cargar las noticias se han usado archivos <i>JSON</i> guardados en la máquina local como se especificaba para dicha práctica, y una plantilla estándard sobre las que imprimir la información.
+        </p>
+    </div>
+
+    <footer class="date">
+        <span>Publicado: 25/05/2017 </span><span class="autor">Autor:<a href="#"> Jesús Martínez</a></span>
+    </footer>
+</div>

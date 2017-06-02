@@ -1,7 +1,8 @@
 ﻿@{
     ViewBag.Title = "Home Page";
-}
 
+    <link href="@Url.Content("~/Content/indexstyle.css")" rel="stylesheet" type="text/css" />
+}
 <!--Jumbotron container, only visible on xs version-->
 <row>
     <div class="jumbotron visible-xs" id="mobilePresentation">
@@ -35,7 +36,7 @@
 <!--Presentation video, only visible on sm or bigger screens-->
 <div class="hidden-xs" id="video-container">
     <video id="video" preload="auto" autoplay="autoplay" loop="loop" muted="muted">
-        <source src="~/Multimedia/Video/meet&greed.mp4" type="video/mp4" />
+        <source src="~/Multimedia/Video/meet&greed2.mp4" type="video/mp4" />
         Video not supported
     </video>
 </div>
@@ -49,9 +50,7 @@
             </div>
         </div>
         <!--Adv for large screen-->
-        <div class="hidden-xs" id="advLarge">
-            <div class="advCross" id="advLargeCross"></div>
-        </div>
+        <div class="hidden-xs" id="advLarge"></div>
     </row>
 </div>
 

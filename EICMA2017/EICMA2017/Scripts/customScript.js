@@ -2,13 +2,13 @@
 $(document).ready(function () {
 
     //Hidden Advs
-    $('#advSmallCross').click(function () {
+    $('#advSmall').click(function () {
         $('#advSmall').removeClass('visible-xs');
         $('#advSmall').removeClass('visible-sm');
         $('#advSmall').css('display', 'none');
     });
 
-    $('#advLargeCross').click(function () {
+    $('#advLarge').click(function () {
         $('#advLarge').removeClass('hidden-xs');
         $('#advLarge').removeClass('hidden-sm');
         $('#advLarge').css('display', 'none');
@@ -29,6 +29,7 @@ $(document).ready(function () {
     $('#information').click(function () {
         window.location.href = '/Home/About/';
     });
+
 
     $('#noticiasXs').click(function () {
         window.location.href = '/Home/News/';

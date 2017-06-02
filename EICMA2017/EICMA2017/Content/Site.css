@@ -64,7 +64,10 @@ li > a {
     height: 300px;
     width: 300px;
     float: right;
-    background-color: red;
+    background-image: url("../Multimedia/img/bigAdv.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 50%;
 }
 
 #advLargeNews {
@@ -72,7 +75,10 @@ li > a {
     height: 300px;
     width: 300px;
     float: right;
-    background-color: red;
+    background-image: url("../Multimedia/img/bigAdv.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 50%;
 }
 
 #advSmall {
@@ -81,16 +87,10 @@ li > a {
     height: 90px;
     width: 100%;
     float: right;
-    background-color: red;
-}
-
-.advCross {
-    height: 15px;
-    width: 15px;
-    float: right;
-    margin-top: 5px;
-    margin-right: 5px;
-    background-color: blueviolet;
+    background-image: url("../Multimedia/img/horizontalAdv.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 50%;
 }
 
 /*Footer*/

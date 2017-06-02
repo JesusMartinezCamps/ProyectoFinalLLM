@@ -32,7 +32,7 @@
 /******************************/
 #extraInformationAdv {
     position: relative;
-    margin-top: 50%;
+    margin-top: 70%;
     height: 350px;
 }
 
@@ -123,4 +123,8 @@ p {
     color: white;
     opacity: 0.9;
     text-align: right;
+}
+
+i > a{
+    color: red;
 }

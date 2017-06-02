@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+  <channel>
+    <title>EICMA2017</title>
+    <link>https://cdn.rawgit.com/JesusMartinezCamps/ProyectoFinalLLM/6ec88c03/EICMA2017/EICMA2017/Views/Home/Index.cshtml</link>
+    <description>Últimas novedades del salón EICMA de Milán de 2017.</description>
+    <item>
+      <title>XJ6, la moto del momento.</title>
+      <link>https://cdn.rawgit.com/JesusMartinezCamps/ProyectoFinalLLM/6ec88c03/EICMA2017/EICMA2017/Views/Home/news1.cshtml</link>
+      <description>
+        Un prodigioso motor de cuatro cilindros con regrigeración líquida que aporta 78 cv promete entregar suavidad,
+        par y potencia en todo el rago de revoluciones, si lo combinas con un estilo impecable y una ergonomía formidable.
+      </description>
+    </item>
+    <item>
+      <title>3 motivos para comprar el nuevo LG G6</title>
+      <link>https://cdn.rawgit.com/JesusMartinezCamps/ProyectoFinalLLM/6ec88c03/EICMA2017/EICMA2017/Views/Home/news2.cshtml</link>
+      <description>
+        La nueva Monster 1200 representa plenamente los valores que hacen latir el corazón de los motociclistas desde hace más 
+        de 20 años. Un icono de deportividad que se renueva completamente y sin embargo se mantiene fiel a sus valores.
+      </description>
+    </item>
+  </channel>
+</rss>

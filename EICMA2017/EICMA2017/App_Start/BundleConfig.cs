@@ -21,7 +21,6 @@ namespace EICMA2017
                         );
 
             bundles.Add(new StyleBundle("~/Content/css")
-                        .Include("~/Content/indexstyle.css")
                         .Include("~/Content/newsstyle.css")
                         .Include("~/Content/site.css")
                         .Include("~/Content/bootstrap.css")

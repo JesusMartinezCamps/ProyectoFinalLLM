@@ -122,3 +122,7 @@ footer {
     display: inline-block;
     width: 45%;
 }
+
+i > a {
+    color: red;
+}
